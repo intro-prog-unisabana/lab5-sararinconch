@@ -36,9 +36,9 @@ def goal_check(nums, goal=10000):
     result = []
     for s in nums:
         if s >= goal:
-            result.append("True")
+            result.append(True)
         else:
-            result.append("False")
+            result.append(False)
     return result
 
 # ----------------------
