@@ -1,4 +1,4 @@
-from utils import *
+from utils_calc import *
 
 operación = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit): ").lower()
 while operación != "exit":
