@@ -7,10 +7,10 @@ while operación != "exit":
         operación = input("Which calculation would you like to perform? (add, subtract, multiply, divide, exponent, modulo, floor_divide, absolute, exit): ").lower()
     else:
         if operación == "absolute":
-            num = int(input("Enter the number: "))
+            num = float(input("Enter the number: "))
         else:
-            num1 = int(input("Enter the first number: "))
-            num2 = int(input("Enter the second number: "))
+            num1 = float(input("Enter the first number: "))
+            num2 = float(input("Enter the second number: "))
             
         if operación == "divide":
             num_2 = divide(num1, num2)
